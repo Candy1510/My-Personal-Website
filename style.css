@@ -1,0 +1,87 @@
+/* General Page Styles */
+body {
+    font-family: 'Lobster', sans-serif;
+    margin: 10px 20px; /* Adjusted margin for spacing */
+    line-height: 1.6;
+    padding: 0;
+    background-color: #e6f9ff;
+    color: purple; /* Purple text */
+  }
+  
+  header {
+    display: flex;
+    flex-flow: column;
+    background-color: #00d4ff; /* Aqua */
+    color: purple; /* Purple text */
+    padding: 20px 20px;
+    padding: 10px 10px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 20px;
+    font-family: 'Lobster', sans-serif;
+  }
+  
+  .container {
+    margin: 50px auto; /* Centered container */
+    padding: 20px;
+    max-width: 1200px;
+  }
+  
+  nav ul {
+    list-style-type:georgian;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 1rem;
+  }
+  
+  nav ul li a {
+    color: purple;
+    text-decoration:underline
+  }
+  
+  
+  
+  /* Image Sections Styles */
+img {
+    background-color: #00d4ff; /* Aqua background */
+    padding: 20px;
+    border: 20px solid purple; /* Purple border */
+    border-radius: 15px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-right: 50px;
+  }
+form {
+  
+    display: table;
+  }
+  
+  div.form {
+    display: table-row;
+  }
+  
+  label,
+  input {
+    display: table-cell;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    padding-right: 10px;
+  }
+
+/* Footer Styles */
+footer {
+    background-color: #0ecfc6;
+    color: #5e0a57;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    bottom: 0;
+}
